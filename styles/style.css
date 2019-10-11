@@ -1,0 +1,114 @@
+:root {
+    --font-text: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    --color: white;
+    --border: 2px solid white;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.li-height {
+    padding: 20px;
+    word-spacing: 2px;
+    line-height: 1.5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+  }
+
+html {
+    background: #3399CC;
+    color: var(--color);
+    border: 10px solid #2B81AC;
+    width: 100%;
+    height: 100%;
+}
+
+.weather {
+    width: 60%;
+    position: relative;
+}
+
+.city {
+    display: inline-block;
+    border: var(--border);
+    text-align: center;
+}
+
+ul {
+    font-size: 0;
+    border: var(--border);
+}
+
+li {
+    font-size: 20px;
+}
+
+.lisbon {
+    background: #3399CC;
+}
+
+.paris {
+    background: #33CCCC;
+}
+
+.belgrade {
+    background: #996699;
+}
+
+.moscow {
+    background: #C24747;
+}
+
+.telaviv {
+    background: #E2674A;
+}
+
+.cair {
+    background: #FFCC66;
+}
+
+.ny {
+    background: #99CC99;
+}
+
+.nd {
+    background: #669999;
+}
+
+.sanfr {
+    background: #CC6699;
+}
+
+.tokyo {
+    background: #339966;
+}
+
+.sydney {
+    background: #666699;
+}
+
+ul:hover {
+    opacity: .7;
+} 
+
+.city .li-height:hover {
+    opacity: 1;
+}
+
+
+
