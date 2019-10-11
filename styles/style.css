@@ -38,9 +38,39 @@ html {
     height: 100%;
 }
 
+/*HEADER ____ FOOTER*/
+
+.header {
+    display: block;
+    max-width: 1024px;
+    margin: 30px auto;
+}
+
+.topic {
+    display: inline;
+    text-align: center;
+    font-family: var(--font-text);
+} 
+
+.topic h1 {
+    font-size: 30px;
+}
+
+.topic h5 {
+    font-size: 16px;
+}
+
+
+.container {
+    display: block;
+    margin: 0 auto;
+}
+
 .weather {
-    width: 60%;
+    /* width: 60%; */
     position: relative;
+    max-width: 1024px;
+    margin: 30px auto;
 }
 
 .city {
@@ -56,6 +86,7 @@ ul {
 
 li {
     font-size: 20px;
+    font-family: var(--font-text);
 }
 
 .lisbon {
@@ -102,12 +133,16 @@ li {
     background: #666699;
 }
 
-ul:hover {
-    opacity: .7;
+ul:hover > li {
+    opacity: .5;
 } 
 
-.city .li-height:hover {
+.city:hover {
     opacity: 1;
+}
+
+.city:hover i {
+    transform: rotate(45deg);
 }
 
 
